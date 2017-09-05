@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="Raamakrishnan.Helpers.Sample.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+		<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="300">
+			<TextBlock Text="App Uri" />
+			<TextBox Name="AppUriTxt" />
+			<TextBlock Text="Web Uri" />
+			<TextBox Name="WebUriTxt" />
+			<Button Name="GoBtn" Content="Go!" Click="GoBtn_Click"/>
+			<TextBlock Name="StatusTxt" Text="Waiting to launch" />
+		</StackPanel>
+    </Grid>
+</Page>
